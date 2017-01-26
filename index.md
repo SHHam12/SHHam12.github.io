@@ -1,10 +1,20 @@
 ---
 layout: default
 ---
+# [](#header-1)To contact me
+```java
+public Person(String name, Stirng phonenumber, String email){
+  name =          "Suk Hwa (JD) Ham";
+  phonenumber =   "six31951739six";
+  email =         "sanham1992 at gmail dot com";
+}
+```
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](another-page).
+
+[Link to projects page](projects).
 
 There should be whitespace between paragraphs.
 
