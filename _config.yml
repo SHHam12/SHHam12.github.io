@@ -18,7 +18,7 @@ email: 이메일
 description: 사이트 설명
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "github 주소" # the base hostname & protocol for your site
+url: "SHHam12.github.io" # the base hostname & protocol for your site
 twitter_username: 트위터 네임
 github_username:  github 네임
 
