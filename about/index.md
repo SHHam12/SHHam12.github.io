@@ -1,37 +1,26 @@
 ---
 layout: page
-title: About the Theme
+title: About Suk Hwa (JD)
 tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center>Student/Novice programmer</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## About me
+* Since I had studied Business Management, I felt the pain to find the resources
+ because they required a lot of time-consuming and efforts. While I struggled
+ searching information, I kept thinking about how to reduce the time and find
+ it efficiently. I wonder what if I develop the platform to resolve
+ the inconvenience came across my mind. So, I decided to change my major as
+ Information System Engineer which learn about Business Management and Computer Science.
+ After I had changed my study to programming, I was thrilled that write codes that
+ process tasks efficiently with less time-consuming. However, using the information
+ from the classes that I took was not enough to build my goal, so I started to learn
+ more information by myself. The more I study programming, the more thrill comes to me,
+ and I cannot stop learning programming. Even I become appropriate to build a platform
+ that makes people's life easier, I will keep studying programming to come up with
+ the better program and platform that can be used for all needs.
 
-## Preview
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}

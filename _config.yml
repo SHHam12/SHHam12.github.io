@@ -1,7 +1,7 @@
 # Site
-title:              Suk Hwa's page
-bio:                'Minimal, one column jekyll theme.'
-description:        "Moon is a minimal, one column jekyll theme for your blog."
+title:              Suk Hwa(JD)'s page
+bio:                'Study Information System in Stony Brook University.'
+description:        "Student/Novice programmer who fall into programming with ambition."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -9,6 +9,7 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://shham12.github.io/
+me:                 'assets/img/me.jpg'
 
 # Jekyll
 permalink:          /:title/
@@ -37,20 +38,20 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            username
-facebook:           username
+email:              sanham1992@gmail.com
+#twitter:            username
+facebook:           suk hwa ham
 github-url:         shham12
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          suk-hwa-ham-028507111
 #xing:              username
-instagram:          username
+#instagram:          username
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              username
+#steam:              username
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
