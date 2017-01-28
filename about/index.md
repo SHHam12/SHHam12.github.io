@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About Suk Hwa (JD)
-tags: [about, Jekyll, theme, moon]
 date: 2016-03-21
 comments: false
 ---
@@ -22,5 +21,6 @@ comments: false
  and I cannot stop learning programming. Even I become appropriate to build a platform
  that makes people's life easier, I will keep studying programming to come up with
  the better program and platform that can be used for all needs.
+ 
 
 
