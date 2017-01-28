@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-27T20:41:07-05:00</updated><id>http://localhost:4000//</id><title type="html">Suk Hwa(JD)’s page</title><subtitle>Student/Novice programmer who fall into programming with ambition.</subtitle><entry><title type="html">Selection sort</title><link href="http://localhost:4000/selection-sort/" rel="alternate" type="text/html" title="Selection sort" /><published>2017-01-27T00:00:00-05:00</published><updated>2017-01-27T00:00:00-05:00</updated><id>http://localhost:4000/selection%20sort</id><content type="html" xml:base="http://localhost:4000/selection-sort/">&lt;h2 id=&quot;what-is-selection-sort&quot;&gt;What is selection sort?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="http://localhost:4000/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-01-27T22:16:34-05:00</updated><id>http://localhost:4000//</id><title type="html">Suk Hwa(JD)’s page</title><subtitle>Student/Novice programmer who fall into programming with ambition.</subtitle><entry><title type="html">Selection sort</title><link href="http://localhost:4000/selection-sort/" rel="alternate" type="text/html" title="Selection sort" /><published>2017-01-27T00:00:00-05:00</published><updated>2017-01-27T00:00:00-05:00</updated><id>http://localhost:4000/selection%20sort</id><content type="html" xml:base="http://localhost:4000/selection-sort/">&lt;h2 id=&quot;what-is-selection-sort&quot;&gt;What is selection sort?&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Selection sort is the on of the simplest sorting algorithms.&lt;/li&gt;
   &lt;li&gt;Find the biggest element in A[1…n] and replace location to A[n]&lt;/li&gt;
@@ -14,18 +14,45 @@
   &lt;li&gt;However, I prefer to find the largest element, so I will go through with finding the largest element.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;lets-see-pesudo-code&quot;&gt;Let’s see pesudo code&lt;/h3&gt;
-&lt;pre&gt;&lt;code class=&quot;language-{.no-highlight}&quot;&gt;selectionSort (A[],n){  			// sort A[1...n]
+&lt;h3 id=&quot;lets-see-pseudo-code&quot;&gt;Let’s see pseudo code&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-{.no-highlight}&quot;&gt;selectionSort (A[],n){  // sort A[1...n]
     for last &amp;lt;- n down to 2 {
-		k &amp;lt;-&amp;gt; theLargest(A,last); 	// find the biggest element A[k] in A[1...last]
+		k &amp;lt;-&amp;gt; theLargest(A,last); // find the biggest element A[k] in A[1...last]
 		A[k] &amp;lt;-&amp;gt; A[last];
 	}
 }
-theLargest(A[],last){ 				// return the biggest element's index in A[1...last]
+theLargest(A[],last){ // return the biggest element's index in A[1...last]
 	largest &amp;lt;- 1;
 	for i &amp;lt;- 2 to last
 		if(A[i]&amp;gt;A[largest]) then largest -&amp;gt; i;
 	return largest;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;what-about-time-complexity&quot;&gt;What about time complexity?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;For selection sort, time complexity is O(n^2).&lt;/li&gt;
+  &lt;li&gt;When you see the pseudo code, selectionSort(A[],n)’s for loop circulate n-1 times.&lt;/li&gt;
+  &lt;li&gt;Changing the location of the elements takes constant time.&lt;/li&gt;
+  &lt;li&gt;For theLagest(A[],last) need to compare n-1 times to find out the biggest elements.&lt;/li&gt;
+  &lt;li&gt;While selectionSort(A[],n) is processing, sub array’s size is decreasing n to 2 by for loop.&lt;/li&gt;
+  &lt;li&gt;Thus, the total times to compare the elements is (n - 1) + (n - 2) + … + 2 + 1 = n(n - 1)/2 (by arithmatic sequence). And it is O(n^2)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lets-see-java&quot;&gt;Let’s see Java&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;language-{.java}&quot;&gt;public static void selectionSort(int [] array){
+	int max = 0;
+	for( int i = 0; i &amp;lt; array.length; i ++){
+		for( int j = 0; j &amp;lt; array.length; j ++ ){
+			if( array[j] &amp;lt; array[j + 1]){
+				max = array[j + 1];
+				array[j + 1] = array[j];
+				array[j] = max;
+			}
+		}
+	}
+	for( int i = 0; i &amp;lt; array.length; i ++){
+		System.out.print(array[i] + &quot; &quot;);
+	}
 }
 &lt;/code&gt;&lt;/pre&gt;</content><summary type="html">Let's learn about selection sort.</summary></entry><entry><title type="html">Resume</title><link href="http://localhost:4000/resume/" rel="alternate" type="text/html" title="Resume" /><published>2017-01-27T00:00:00-05:00</published><updated>2017-01-27T00:00:00-05:00</updated><id>http://localhost:4000/resume</id><content type="html" xml:base="http://localhost:4000/resume/">&lt;p&gt;&lt;img src=&quot;0001.jpg&quot; alt=&quot;resume image&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;link-to-pdf&quot;&gt;&lt;strong&gt;&lt;a href=&quot;Suk_Hwa_Ham_Resume.pdf&quot;&gt;Link to pdf&lt;/a&gt;&lt;/strong&gt;&lt;/h2&gt;</content><summary type="html">This is my resume.</summary></entry><entry><title type="html">Project</title><link href="http://localhost:4000/project/" rel="alternate" type="text/html" title="Project" /><published>2017-01-27T00:00:00-05:00</published><updated>2017-01-27T00:00:00-05:00</updated><id>http://localhost:4000/project</id><content type="html" xml:base="http://localhost:4000/project/">&lt;p&gt;Coming soon.&lt;/p&gt;</content><summary type="html">Something will be up soon.</summary></entry><entry><title type="html">Markdown Syntax</title><link href="http://localhost:4000/markdown-syntax/" rel="alternate" type="text/html" title="Markdown Syntax" /><published>2016-03-15T00:00:00-04:00</published><updated>2016-03-15T00:00:00-04:00</updated><id>http://localhost:4000/markdown-syntax</id><content type="html" xml:base="http://localhost:4000/markdown-syntax/">&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
