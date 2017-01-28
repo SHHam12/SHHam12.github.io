@@ -5,7 +5,7 @@ date:   2017-01-27
 excerpt: "Let's learn about selection sort."
 sorts: true
 tag:
-comments: false
+comments: true
 ---
 ## What is selection sort?
 * Selection sort is the on of the simplest sorting algorithms.
