@@ -34,6 +34,7 @@ theLargest(A[],last){ // return the biggest element's index in A[1...last]
 	return largest;
 }
 ```
+
 ### What about time complexity?
 * For selection sort, time complexity is O(n^2).
 * When you see the pseudo code, selectionSort(A[],n)'s for loop circulate n-1 times.

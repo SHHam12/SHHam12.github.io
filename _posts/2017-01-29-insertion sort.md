@@ -29,6 +29,7 @@ insertionSort (A[],n){  // sort A[1...n]
 	}
 }
 ```
+
 ### What about time complexity?
 * #1 for loop circulate n - 1 times just like selection sort.
 * while loop circulate at most i - 1 times.
