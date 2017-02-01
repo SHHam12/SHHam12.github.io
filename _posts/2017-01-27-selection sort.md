@@ -5,6 +5,9 @@ date:   2017-01-27
 excerpt: "Let's learn about selection sort."
 sorts: true
 tag:
+- Algorithm
+- sort
+- O(n^2)
 comments: true
 ---
 ## What is selection sort?

@@ -1,26 +1,12 @@
----
-layout: page
-title: About Suk Hwa (JD)
-date: 2016-03-21
-comments: false
----
-    
-<center>Student/Novice programmer</center>
-
 ## About me
-* Since I had studied Business Management, I felt the pain to find the resources
- because they required a lot of time-consuming and efforts. While I struggled
- searching information, I kept thinking about how to reduce the time and find
- it efficiently. I wonder what if I develop the platform to resolve
- the inconvenience came across my mind. So, I decided to change my major as
- Information System Engineer which learn about Business Management and Computer Science.
- After I had changed my study to programming, I was thrilled that write codes that
- process tasks efficiently with less time-consuming. However, using the information
- from the classes that I took was not enough to build my goal, so I started to learn
- more information by myself. The more I study programming, the more thrill comes to me,
- and I cannot stop learning programming. Even I become appropriate to build a platform
- that makes people's life easier, I will keep studying programming to come up with
- the better program and platform that can be used for all needs.
- 
-
+*  I began my studies at Stony Brook University as a Business Management major and was struck by how tim-consuming and difficult it was to find the necessary resources and information for my work. While I struggled
+ to search for information, I kept thinking about how to reduce research time and find
+ resources more efficiently. I wondered, what if I developed the platform to resolve
+ these inconvenience. So, I decided to change my major to
+ Information System Engineering and specialize in Business Management.
+ After I  changed my major, I was thrilled to write my own codes that
+ process tasks efficiently. However, using the information
+ from the classes that I took was not enough to reach my goal, so I started to learn
+ more information idependently. The more I study programming, the more thrilling I find it. Even when I build a platform
+ that makes people's lives easier, I keep studying to improve my programs so they can meet even more needs.
 
